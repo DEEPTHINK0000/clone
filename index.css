@@ -1,4 +1,165 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+header {
+    display: flex;
+    background-color: #ffffff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b5b1b1;
+}
+.myntra_logo {
+    height: 40px;
+}
+.logo_home {
+    margin-left: 4%;
+}
+.profile_bar{
+    margin-right: 4%;
+}
+.navigation_bar{
+    display: flex;
+    min-width: 515px;
+    justify-content: space-evenly;
+}
+.navigation_bar a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 29px 0;
+    border-bottom: 3px solid #ffffff;
+}
+.navigation_bar a:hover{
+    border-bottom: 3px solid #f54e77;
+}
+.navigation_bar a sup{
+    color: #ff3f6c;
+    font-size: 10px;
+}
+
+
+.search_bar{
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.search_icon{
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    color: #282c3f;
+    background-color: #f5f5f6;
+    font-weight: 300;
+    border-radius: 5px 0 0 5px;
+}
+.search_option{
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+}
+.profile_bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.profile_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Main*/
+.main_banner{
+    margin: 40px 0;
+}
+.banner_image{
+    width: 100%;
+}
+.category_banner{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.category_items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.international_item {
+    width: 250px;
+}
+.category_banner_2{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.category_brands{
+    display: flex;
+    flex-wrap: wrap;
+}
+.international_brand{
+    width: 240px;
+}
+.category_discount{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.category_offer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.offer_brand{
+    width: 240px;
+}
+.footer_box{
+    padding: 30px 0px 40px 0px;
+    background: #fafbfc;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_text{
+    display: flex;
+    flex-direction: column;
+}
+.footer_box h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+.footer_text a{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.copyright{
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
 }
