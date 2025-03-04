@@ -23,7 +23,7 @@ $contributions = [
     '2025-01-04' => 1,
 ];
 ?>
-
+--------------------------------------------------
 <?php
 function generateCalendar($year, $month, $contributions) {
     // Get the first day of the month and the number of days in the month
@@ -74,6 +74,7 @@ function generateCalendar($year, $month, $contributions) {
 echo generateCalendar(2024, 3, $contributions);
 ?>
 
+-------------------------------------------------------
 <style>
     .contribution-calendar {
         border-collapse: collapse;
@@ -102,7 +103,7 @@ echo generateCalendar(2024, 3, $contributions);
         background-color: #196127; /* High contributions */
     }
 </style>
-
+------------------------------------------------------------------
 <!DOCTYPE html>
 <html lang="en">
 <head>
